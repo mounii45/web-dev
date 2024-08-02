@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html >
+<head>
+   
+    <title>Document</title>
+    <style>
+      body{
+         background-color:burlywood;
+         
+      }
+      .but{
+         color:green;
+      }
+    </style>
+</head>
+<body>
+   <h1 style="color:brown;">Registration form</h1>  
+   <form>
+      <label for="user"><strong>Name:</strong></label>
+      <input id="user" type="text" placeholder="enter username">
+      
+      <label for="pass"><strong>password:</strong></label>
+      <input id="pass" type="password" size="8" required>
+      
+      <label ><strong>email:</strong> </label>
+      <input type="email" required>
+      <br>
+      <br>
+      <strong>Gender</strong>
+      <br>
+      <input type="radio" id="m">
+      <label for="m">male</label>
+      <br>
+      <input type="radio" id="f">
+      <label for="f">female</label>
+       <br>
+       <br>
+      <strong>skills</strong>
+      <br>
+      <input type="checkbox" id="c">
+      <label for="c">C</label>
+      <br>
+      <input type="checkbox" id="py">
+      <label for="py">Python</label>
+      <br>
+      <input type="checkbox" id="j">
+      <label for="j">java</label>
+      <hr>
+
+      <strong>Projects</strong>
+      <br>
+      <br>
+      <textarea id="report" placeholder="enter your projects here" rows="4" cols="50"></textarea>
+      <br>
+      <br>
+
+      <location for="place">Onsite locations:</location>
+      <select id="place" name="place" placeholder="location">
+            <option value="Hyderbad">Hyderbad</option>
+            <option value="Bengulure">Bengalure</option>
+            <option value="Chennai">Chennai</option>
+      </select>
+      <br>
+      <img src="tae.png" >
+      <br>
+      <button class="but">contact us</button>
+      <button class="but" type="reset">Reset</button>
+      <br>
+      <br>
+      <button type="submit">submit</button>
+   </form> 
+</body>
+</html>
